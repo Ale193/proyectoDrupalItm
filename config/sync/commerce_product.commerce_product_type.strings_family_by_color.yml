@@ -1,0 +1,11 @@
+uuid: 2a02bbb8-7cc5-46c9-9257-d3aaf210d4ab
+langcode: en
+status: true
+dependencies: {  }
+id: strings_family_by_color
+label: Strings_Family_By_Color
+description: 'Only for string instruments that vary by color.'
+variationType: color_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

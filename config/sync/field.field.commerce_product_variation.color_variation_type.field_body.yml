@@ -1,0 +1,22 @@
+uuid: 641b3af9-8d7f-4db2-b213-da4422e64a45
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.color_variation_type
+    - field.storage.commerce_product_variation.field_body
+  module:
+    - text
+id: commerce_product_variation.color_variation_type.field_body
+field_name: field_body
+entity_type: commerce_product_variation
+bundle: color_variation_type
+label: Body
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

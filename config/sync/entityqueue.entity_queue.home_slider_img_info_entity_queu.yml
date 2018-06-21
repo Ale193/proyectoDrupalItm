@@ -1,0 +1,25 @@
+uuid: b83eb965-790f-488e-beae-9e43a44a3f3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: home_slider_img_info_entity_queu
+label: Home_Slider_Img_Info-Entity_Queu
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: block_content
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      home_slider_img_info_vblock_type: home_slider_img_info_vblock_type
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse_in_admin: false

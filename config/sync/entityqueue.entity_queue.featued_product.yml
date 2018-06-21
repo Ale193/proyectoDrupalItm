@@ -1,0 +1,41 @@
+uuid: 93612c1a-63f8-4c89-a619-68079c33d87e
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: featued_product
+label: 'Featued Product'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: commerce_product
+  handler: 'default:commerce_product'
+  handler_settings:
+    target_bundles:
+      brass_family_by_color: brass_family_by_color
+      brass_family_by_color_and_size: brass_family_by_color_and_size
+      brass_family_by_size: brass_family_by_size
+      default: default
+      _default_without_variation_produ: _default_without_variation_produ
+      keyboard_family_by_color: keyboard_family_by_color
+      keyboard_family_by_color_size: keyboard_family_by_color_size
+      keyboard_family_by_size: keyboard_family_by_size
+      percussion_family_by_color: percussion_family_by_color
+      percussion_family_by_color_and_s: percussion_family_by_color_and_s
+      percussion_family_by_size: percussion_family_by_size
+      strings_family_by_color: strings_family_by_color
+      strings_family_by_color_and_size: strings_family_by_color_and_size
+      strings_family_by_size: strings_family_by_size
+      woodwind_family_by_color: woodwind_family_by_color
+      woodwind_family_by_color_and_siz: woodwind_family_by_color_and_siz
+      woodwind_family_by_size: woodwind_family_by_size
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: brass_family_by_color
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse_in_admin: false

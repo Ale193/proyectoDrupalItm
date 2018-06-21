@@ -1,0 +1,11 @@
+uuid: f7c15575-04a6-459b-918b-fc254a987669
+langcode: en
+status: true
+dependencies: {  }
+id: woodwind_family_by_size
+label: Woodwind_Family_By_Size
+description: ''
+variationType: size_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

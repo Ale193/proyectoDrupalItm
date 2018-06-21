@@ -1,0 +1,11 @@
+uuid: 06a299e5-89ab-442a-9028-490f1ab33f75
+langcode: en
+status: true
+dependencies: {  }
+id: woodwind_family_by_color
+label: Woodwind_Family_By_Color
+description: ''
+variationType: color_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

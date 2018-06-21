@@ -1,0 +1,12 @@
+uuid: 2fc4c149-29fd-45ff-a33f-ab063f78ea64
+langcode: en
+status: true
+dependencies: {  }
+id: store_2
+label: Store-2
+description: ''
+use_admin_theme: false
+path: /store-2
+access_logic: and
+access_conditions: {  }
+parameters: {  }

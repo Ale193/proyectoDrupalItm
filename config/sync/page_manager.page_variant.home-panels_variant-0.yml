@@ -1,0 +1,105 @@
+uuid: 9b2696d0-0088-49fb-8330-db590ef6977d
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.home
+    - system.menu.footer
+    - system.menu.main
+    - views.view.featured_categories_products_by_variation
+    - views.view.featured_products_by_variation
+    - views.view.home_slider_img_info_view
+  content:
+    - 'block_content:default:82c9f93a-d61c-4bd8-9106-7786f88d23da'
+  module:
+    - block_content
+    - panels
+    - system
+    - views
+id: home-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    ae6c3a0d-30f5-40f4-93ef-ea301c30157f:
+      id: 'system_menu_block:main'
+      label: 'Main navigation'
+      provider: system
+      label_display: '0'
+      level: 1
+      depth: 0
+      region: content
+      weight: -2
+      uuid: ae6c3a0d-30f5-40f4-93ef-ea301c30157f
+      context_mapping: {  }
+    38e7b272-417a-4d3d-9b49-0d7ae7100646:
+      id: 'views_block:featured_products_by_variation-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -1
+      uuid: 38e7b272-417a-4d3d-9b49-0d7ae7100646
+      context_mapping: {  }
+    c4626120-2328-4c01-abfe-4be5154ec4c0:
+      id: 'views_block:featured_categories_products_by_variation-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: c4626120-2328-4c01-abfe-4be5154ec4c0
+      context_mapping: {  }
+    57ac6f11-41b2-4674-81ed-da6898fa86cc:
+      id: 'block_content:82c9f93a-d61c-4bd8-9106-7786f88d23da'
+      label: Lower-right-home-block
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 2
+      uuid: 57ac6f11-41b2-4674-81ed-da6898fa86cc
+      context_mapping: {  }
+    7dffa39c-56c8-4a52-8b4a-b72338916481:
+      id: 'system_menu_block:footer'
+      label: Footer
+      provider: system
+      label_display: '0'
+      level: 1
+      depth: 0
+      region: content
+      weight: 3
+      uuid: 7dffa39c-56c8-4a52-8b4a-b72338916481
+      context_mapping: {  }
+    6bcf4a9e-93f9-42de-8a7c-417e8b3d2cfe:
+      id: 'views_block:home_slider_img_info_view-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 6bcf4a9e-93f9-42de-8a7c-417e8b3d2cfe
+      context_mapping: {  }
+  id: panels_variant
+  uuid: dcc2fd0c-e2b9-4900-bce0-fc6bbb35b60b
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: home-panels_variant-0
+  builder: standard
+page: home
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

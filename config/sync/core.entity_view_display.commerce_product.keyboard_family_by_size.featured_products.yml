@@ -1,0 +1,30 @@
+uuid: 0588fa9a-0c19-495a-abaa-18cf8f88a5af
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.keyboard_family_by_size
+    - core.entity_view_mode.commerce_product.featured_products
+    - field.field.commerce_product.keyboard_family_by_size.field_category
+    - field.field.commerce_product.keyboard_family_by_size.stores
+    - field.field.commerce_product.keyboard_family_by_size.variations
+id: commerce_product.keyboard_family_by_size.featured_products
+targetEntityType: commerce_product
+bundle: keyboard_family_by_size
+mode: featured_products
+content:
+  variations:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: featured_products_view_for_variation
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_category: true
+  stores: true
+  title: true
+  uid: true

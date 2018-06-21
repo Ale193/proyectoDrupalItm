@@ -1,0 +1,21 @@
+uuid: 23a4ce79-b6b4-44b7-a849-a9bb8d17bb21
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.keyboard_family_by_color_size
+    - field.storage.commerce_product.stores
+id: commerce_product.keyboard_family_by_color_size.stores
+field_name: stores
+entity_type: commerce_product
+bundle: keyboard_family_by_color_size
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

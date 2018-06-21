@@ -1,0 +1,10 @@
+uuid: 9d766b55-86f8-4071-a86f-d9f9d23ca9cf
+langcode: en
+status: true
+dependencies: {  }
+id: color_and_size_variation_type
+label: Color_And_Size_Variation_Type
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

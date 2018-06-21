@@ -1,0 +1,11 @@
+uuid: 8be2bd84-c556-4eb9-8133-ef51c93c4f7a
+langcode: en
+status: true
+dependencies: {  }
+id: strings_family_by_color_and_size
+label: Strings_Family_By_Color_And_Size
+description: 'Only for string instruments that vary by color and size.'
+variationType: color_and_size_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

@@ -1,0 +1,90 @@
+uuid: 935e78ae-1d71-4d51-be33-43e529d1fe41
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.brass_family_by_size
+    - field.field.commerce_product.brass_family_by_size.field_category
+    - field.field.commerce_product.brass_family_by_size.stores
+    - field.field.commerce_product.brass_family_by_size.variations
+  module:
+    - commerce
+    - inline_entity_form
+    - path
+id: commerce_product.brass_family_by_size.default
+targetEntityType: commerce_product
+bundle: brass_family_by_size
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_category:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  stores:
+    type: commerce_entity_select
+    weight: 0
+    settings:
+      hide_single_entity: true
+      autocomplete_threshold: 7
+      autocomplete_size: 60
+      autocomplete_placeholder: ''
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  variations:
+    type: inline_entity_form_complex
+    weight: 2
+    settings:
+      allow_duplicate: true
+      override_labels: true
+      label_singular: variation
+      label_plural: variations
+      form_mode: default
+      collapsible: false
+      collapsed: false
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+    third_party_settings: {  }
+    region: content
+hidden: {  }

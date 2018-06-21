@@ -1,0 +1,11 @@
+uuid: 61989985-bb86-41fa-b4eb-68eb6f46f0a8
+langcode: en
+status: true
+dependencies: {  }
+id: keyboard_family_by_color_size
+label: Keyboard_Family_By_Color_Size
+description: ''
+variationType: color_and_size_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

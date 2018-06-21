@@ -1,0 +1,11 @@
+uuid: f76993e4-5ee1-4bbf-8abb-d6b46a59c81f
+langcode: en
+status: true
+dependencies: {  }
+id: strings_family_by_size
+label: Strings_Family_By_Size
+description: 'Only for string instruments that vary by size.'
+variationType: size_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

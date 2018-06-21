@@ -1,0 +1,81 @@
+uuid: f1544583-2999-40f1-8a15-bc84a7ccbc2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.color_and_size_variation_type
+    - field.field.commerce_product_variation.color_and_size_variation_type.attribute_color_attribute
+    - field.field.commerce_product_variation.color_and_size_variation_type.attribute_size_attribute
+    - field.field.commerce_product_variation.color_and_size_variation_type.field_body
+    - field.field.commerce_product_variation.color_and_size_variation_type.field_image
+    - image.style.thumbnail
+  module:
+    - commerce_price
+    - image
+    - text
+id: commerce_product_variation.color_and_size_variation_type.default
+targetEntityType: commerce_product_variation
+bundle: color_and_size_variation_type
+mode: default
+content:
+  attribute_color_attribute:
+    type: options_select
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  attribute_size_attribute:
+    type: options_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_body:
+    weight: 5
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_image:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  price:
+    type: commerce_price_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  sku:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

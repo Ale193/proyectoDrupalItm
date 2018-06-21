@@ -1,0 +1,8 @@
+uuid: afdda6d8-d109-4070-96b7-8abf12bbdd05
+langcode: en
+status: true
+dependencies: {  }
+id: home_slider_img_info_vblock_type
+label: Home_Slider_Img_Info-Vblock_Type
+revision: 0
+description: ''

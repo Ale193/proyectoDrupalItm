@@ -1,0 +1,36 @@
+uuid: dd9b2f6e-22df-4a19-892d-38e8a8db1210
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.taxonomy_term
+  module:
+    - ctools
+    - panels
+id: taxonomy_term-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 14c3703d-7f04-4765-bdbe-8beee27613d6
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: taxonomy_term-panels_variant-0
+  builder: standard
+page: taxonomy_term
+weight: 0
+selection_criteria:
+  -
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      product_category: product_category
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+selection_logic: and
+static_context: {  }

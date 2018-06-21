@@ -1,0 +1,24 @@
+uuid: fdc15a29-5c45-424a-beb5-431de9f251bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.brass_family_by_size
+    - commerce_product.commerce_product_variation_type.size_variation_type
+    - field.storage.commerce_product.variations
+id: commerce_product.brass_family_by_size.variations
+field_name: variations
+entity_type: commerce_product
+bundle: brass_family_by_size
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - size_variation_type
+field_type: entity_reference

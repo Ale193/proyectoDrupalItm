@@ -1,0 +1,21 @@
+uuid: f13cb8df-2a50-49ac-af39-5069f620fc1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.brass_family_by_color_and_size
+    - field.storage.commerce_product.stores
+id: commerce_product.brass_family_by_color_and_size.stores
+field_name: stores
+entity_type: commerce_product
+bundle: brass_family_by_color_and_size
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

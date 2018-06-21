@@ -1,0 +1,11 @@
+uuid: 48a15dbf-18ba-4217-b0e5-cc9204a63fa2
+langcode: en
+status: true
+dependencies: {  }
+id: keyboard_family_by_size
+label: Keyboard_Family_By_Size
+description: ''
+variationType: size_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

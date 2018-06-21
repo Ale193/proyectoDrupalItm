@@ -1,0 +1,24 @@
+uuid: 40f68b7d-7342-45ae-a581-7fca0df6f17e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.strings_family_by_color_and_size
+    - commerce_product.commerce_product_variation_type.color_and_size_variation_type
+    - field.storage.commerce_product.variations
+id: commerce_product.strings_family_by_color_and_size.variations
+field_name: variations
+entity_type: commerce_product
+bundle: strings_family_by_color_and_size
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - color_and_size_variation_type
+field_type: entity_reference

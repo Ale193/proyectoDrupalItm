@@ -1,0 +1,22 @@
+uuid: 985a4cbb-e237-4502-a585-74a1c9d482b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_slider_img_info_vblock_type
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.home_slider_img_info_vblock_type.body
+field_name: body
+entity_type: block_content
+bundle: home_slider_img_info_vblock_type
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

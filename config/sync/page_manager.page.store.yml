@@ -1,0 +1,12 @@
+uuid: 88af972d-8e37-41d9-8ba5-18f5586d2b92
+langcode: en
+status: true
+dependencies: {  }
+id: store
+label: Store
+description: ''
+use_admin_theme: false
+path: /store
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,24 @@
+uuid: 4471b68d-df59-4e79-b7d7-e7b3098e4e77
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.keyboard_family_by_color_size
+    - commerce_product.commerce_product_variation_type.color_and_size_variation_type
+    - field.storage.commerce_product.variations
+id: commerce_product.keyboard_family_by_color_size.variations
+field_name: variations
+entity_type: commerce_product
+bundle: keyboard_family_by_color_size
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - color_and_size_variation_type
+field_type: entity_reference

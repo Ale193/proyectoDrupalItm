@@ -1,0 +1,14 @@
+uuid: 35d9e644-38d1-48b2-a207-ad24949d7b1b
+name: 'Instrument Store'
+mail: luis.arayago@hotmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

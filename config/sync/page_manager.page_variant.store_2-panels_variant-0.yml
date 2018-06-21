@@ -1,0 +1,53 @@
+uuid: 00d324f5-ccf4-4985-8113-41b6805d33d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.store_2
+    - system.menu.footer
+    - system.menu.main
+  module:
+    - panels
+    - system
+id: store_2-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    e3f1c2e9-0465-4b39-8bb1-c2b53bb209e9:
+      id: 'system_menu_block:main'
+      label: 'Main navigation'
+      provider: system
+      label_display: '0'
+      level: 1
+      depth: 0
+      region: content
+      weight: 0
+      uuid: e3f1c2e9-0465-4b39-8bb1-c2b53bb209e9
+      context_mapping: {  }
+    c7730246-d378-479a-8a03-2105bbbe0c38:
+      id: 'system_menu_block:footer'
+      label: Footer
+      provider: system
+      label_display: '0'
+      level: 1
+      depth: 0
+      region: content
+      weight: 0
+      uuid: c7730246-d378-479a-8a03-2105bbbe0c38
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 865d469f-094d-44f6-8154-0fe2237f0fb4
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: store_2-panels_variant-0
+  builder: standard
+page: store_2
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

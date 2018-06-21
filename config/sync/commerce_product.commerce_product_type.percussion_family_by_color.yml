@@ -1,0 +1,11 @@
+uuid: 5699cf72-6b5f-4804-8617-f155cd1b79f8
+langcode: en
+status: true
+dependencies: {  }
+id: percussion_family_by_color
+label: Percussion_Family_By_Color
+description: ''
+variationType: color_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

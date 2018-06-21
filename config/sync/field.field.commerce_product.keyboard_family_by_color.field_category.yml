@@ -1,0 +1,29 @@
+uuid: dabfe833-348e-4f6d-9f76-f092f5543857
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.keyboard_family_by_color
+    - field.storage.commerce_product.field_category
+    - taxonomy.vocabulary.product_category
+id: commerce_product.keyboard_family_by_color.field_category
+field_name: field_category
+entity_type: commerce_product
+bundle: keyboard_family_by_color
+label: Category
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      product_category: product_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

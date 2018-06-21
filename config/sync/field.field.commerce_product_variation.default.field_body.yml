@@ -1,0 +1,22 @@
+uuid: 6e89e765-7c50-4911-a146-f9ec81b5bbe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.default
+    - field.storage.commerce_product_variation.field_body
+  module:
+    - text
+id: commerce_product_variation.default.field_body
+field_name: field_body
+entity_type: commerce_product_variation
+bundle: default
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,7 @@
+uuid: 06035fc9-18f2-46be-9748-da95a4609392
+langcode: en
+status: true
+dependencies: {  }
+id: size_attribute
+label: Size_Attribute
+elementType: radios

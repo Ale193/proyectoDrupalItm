@@ -1,0 +1,25 @@
+uuid: e3617611-1c13-4256-a689-d7c5d21348a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: featured_categories
+label: 'Featured Categories'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: taxonomy_term
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      product_category: product_category
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 5
+  act_as_queue: false
+  reverse_in_admin: false

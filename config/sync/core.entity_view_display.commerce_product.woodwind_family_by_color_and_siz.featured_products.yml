@@ -1,0 +1,30 @@
+uuid: 47fc6d4b-2aec-4fbc-b203-c9d94e93e177
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.woodwind_family_by_color_and_siz
+    - core.entity_view_mode.commerce_product.featured_products
+    - field.field.commerce_product.woodwind_family_by_color_and_siz.field_category
+    - field.field.commerce_product.woodwind_family_by_color_and_siz.stores
+    - field.field.commerce_product.woodwind_family_by_color_and_siz.variations
+id: commerce_product.woodwind_family_by_color_and_siz.featured_products
+targetEntityType: commerce_product
+bundle: woodwind_family_by_color_and_siz
+mode: featured_products
+content:
+  variations:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: featured_products_view_for_variation
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_category: true
+  stores: true
+  title: true
+  uid: true

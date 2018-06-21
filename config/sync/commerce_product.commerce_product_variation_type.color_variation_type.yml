@@ -1,0 +1,10 @@
+uuid: ecfebbe9-3660-4449-adb2-fa860fe656fd
+langcode: en
+status: true
+dependencies: {  }
+id: color_variation_type
+label: Color_Variation_Type
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

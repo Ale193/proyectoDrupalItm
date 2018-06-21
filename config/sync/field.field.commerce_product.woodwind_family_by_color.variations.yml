@@ -1,0 +1,24 @@
+uuid: bf4edac7-818d-4599-b2aa-030a971b3960
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.woodwind_family_by_color
+    - commerce_product.commerce_product_variation_type.color_variation_type
+    - field.storage.commerce_product.variations
+id: commerce_product.woodwind_family_by_color.variations
+field_name: variations
+entity_type: commerce_product
+bundle: woodwind_family_by_color
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - color_variation_type
+field_type: entity_reference

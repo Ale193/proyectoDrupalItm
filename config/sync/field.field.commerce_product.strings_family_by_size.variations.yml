@@ -1,0 +1,24 @@
+uuid: 001c5298-1f01-4634-ae1a-1d08e040f5b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.strings_family_by_size
+    - commerce_product.commerce_product_variation_type.size_variation_type
+    - field.storage.commerce_product.variations
+id: commerce_product.strings_family_by_size.variations
+field_name: variations
+entity_type: commerce_product
+bundle: strings_family_by_size
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - size_variation_type
+field_type: entity_reference

@@ -1,0 +1,11 @@
+uuid: 87a65e27-df63-4d24-afcb-6437f71d44f4
+langcode: en
+status: true
+dependencies: {  }
+id: brass_family_by_color
+label: Brass_Family_By_Color
+description: ''
+variationType: color_variation_type
+injectVariationFields: true
+traits: {  }
+locked: false

@@ -1,0 +1,30 @@
+uuid: c81584d5-a8e5-4b70-a443-7ca5193f3a2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.percussion_family_by_size
+    - core.entity_view_mode.commerce_product.featured_products
+    - field.field.commerce_product.percussion_family_by_size.field_category
+    - field.field.commerce_product.percussion_family_by_size.stores
+    - field.field.commerce_product.percussion_family_by_size.variations
+id: commerce_product.percussion_family_by_size.featured_products
+targetEntityType: commerce_product
+bundle: percussion_family_by_size
+mode: featured_products
+content:
+  variations:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: featured_products_view_for_variation
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_category: true
+  stores: true
+  title: true
+  uid: true

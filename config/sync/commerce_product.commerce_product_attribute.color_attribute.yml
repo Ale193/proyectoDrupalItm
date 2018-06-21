@@ -1,0 +1,7 @@
+uuid: c10e0ff8-c06f-4a2e-a35e-445e5dd5ad8c
+langcode: en
+status: true
+dependencies: {  }
+id: color_attribute
+label: Color_Attribute
+elementType: commerce_product_rendered_attribute

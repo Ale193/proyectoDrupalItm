@@ -1,0 +1,10 @@
+uuid: 1a5168c1-a02e-4c1b-bced-5c5db7a7d208
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.featured_products_view_for_variation
+label: 'Featured Products View For Variation'
+targetEntityType: commerce_product_variation
+cache: true

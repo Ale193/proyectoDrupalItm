@@ -1,0 +1,10 @@
+uuid: 66f3749c-fc93-4b1f-9030-873c7c5c94e1
+langcode: en
+status: true
+dependencies: {  }
+id: size_variation_type
+label: Size_Variation_Type
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false
